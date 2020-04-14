@@ -5,8 +5,8 @@ Heads=1
 Tails=2
 Hc=0
 Tc=0
-declare -A dict
 
+declare -A dict
 for(( i=0; i<5 ; i++ ))
 do
   if [ $check -eq $Heads ]
